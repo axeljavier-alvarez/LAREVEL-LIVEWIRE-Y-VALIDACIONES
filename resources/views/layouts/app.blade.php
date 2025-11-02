@@ -33,6 +33,9 @@
                     <ul class="navbar-nav mr-auto">
 						<!--Nav Bar Hooks - Do not delete!!-->
 						<li class="nav-item">
+                            <a href="{{ url('/beneficiarios') }}" class="nav-link"><i class="bi-house text-info"></i> Beneficiarios</a> 
+                        </li>
+						<li class="nav-item">
                             <a href="{{ url('/empleados') }}" class="nav-link"><i class="bi-house text-info"></i> Empleados</a> 
                         </li>
                     </ul>
